@@ -9,6 +9,7 @@
 }
 body {
   background: #f9fafa;
+  margin: 0;
   padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,7 +21,7 @@ body {
   flex-wrap: wrap;
 }
 .block {
-  margin: 20px;
+  margin: 5px;
   border-radius: 4px;
   width: 280px;
   min-height: 430px;
