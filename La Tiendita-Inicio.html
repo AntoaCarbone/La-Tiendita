@@ -1,205 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Tiendita</title>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link
+      href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="La Tiendita.css">
-
-</head>
-<body>
-    
-
-    
-   
+    <link rel="stylesheet" href="La Tiendita.css" />
+  </head>
+  <body>
     <div class="block">
-      
       <div class="top">
         <ul>
-          <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+          <li>
+            <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+          </li>
           <li><span class="converse">Asus</span></li>
-          <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-    </a></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </a>
+          </li>
         </ul>
       </div>
-      
+
       <div class="middle">
         <img src="./Img_notebooks/Asus.webp" alt="Notebook Asus" />
       </div>
-      
+
       <div class="bottom">
-        <div class="heading">Notebook Asus </div>
-        <div class="info">Zenbook  </div>
+        <div class="heading">Notebook Asus</div>
+        <div class="info">Zenbook</div>
         <div class="style">14 pulgadas</div>
-        <div class="price">$1.500.000 <span class="old-price">$2.000.000</span></div>
+        <div class="price">
+          $1.500.000 <span class="old-price">$2.000.000</span>
+        </div>
+        <button onclick="mostrarDetalles('asus')">Ver detalles</button>
+        </button>
       </div>
-      
     </div>
     <div class="block">
-      
       <div class="top">
         <ul>
-          <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+          <li>
+            <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+          </li>
           <li><span class="converse">Lenovo</span></li>
-          <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-    </a></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </a>
+          </li>
         </ul>
       </div>
-      
+
       <div class="middle">
         <img src="Img_notebooks/Lenovo.webp" alt="pic" />
       </div>
-      
+
       <div class="bottom">
         <div class="heading">Notebook Lenovo</div>
         <div class="info">ThinkPad</div>
         <div class="style">15.6 Pulgadas</div>
-        <div class="price">$2.305.000 <span class="old-price">$2.45.000</span></div>
-      </div>
-      
+        <div class="price">
+          $2.305.000 <span class="old-price">$2.45.000</span>
+        </div>
+        <button onclick="mostrarDetalles('lenovo')">Ver detalles</button>
+        </div>
     </div>
     <div class="block">
-      
       <div class="top">
         <ul>
-          <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+          <li>
+            <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+          </li>
           <li><span class="converse">Acer</span></li>
-          <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-    </a></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </a>
+          </li>
         </ul>
       </div>
-      
+
       <div class="middle">
         <img src="./Img_notebooks/Acer.webp" alt="pic" />
       </div>
-      
+
       <div class="bottom">
         <div class="heading">Notebook Acer</div>
         <div class="info">Aspire</div>
         <div class="style">15.6 Pulgadas</div>
         <div class="price">$5.000.000</div>
+        <button onclick="mostrarDetalles('acer')">Ver detalles</button>
       </div>
-      
     </div>
     <div class="block">
-      
       <div class="top">
         <ul>
-          <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+          <li>
+            <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+          </li>
           <li><span class="converse">Hp</span></li>
-          <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-    </a></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </a>
+          </li>
         </ul>
       </div>
-      
+
       <div class="middle">
         <img src="./Img_notebooks/Hp.webp" alt="pic" />
       </div>
-      
+
       <div class="bottom">
         <div class="heading">Notebook HP</div>
         <div class="info">Core Ultra</div>
         <div class="style">16 pulgadas</div>
-        <div class="price">$3.400.000 <span class="old-price">$5.000.000</span></div>
+        <div class="price">
+          $3.400.000 <span class="old-price">$5.000.000</span>
+        </div>
+        <button onclick="mostrarDetalles('hp')">Ver detalles</button>
       </div>
-      
     </div>
     <div class="block">
-      
-        <div class="top">
-          <ul>
-            <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
-            <li><span class="converse">Motorola</span></li>
-            <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-      </a></li>
-          </ul>
-        </div>
-        
-        <div class="middle">
-          <img src="./Img_notebooks/Samsung.webp" alt="Samsung 50 Pro" />
-        </div>
-        
-        <div class="bottom">
-          <div class="heading">Celular Motorola </div>
-          <div class="info">50 Pro</div>
-          <div class="style">518 GB 6 RAM</div>
-          <div class="price">$1.200.000</div>
-        </div>
-        
-      </div>
-      <div class="block">
-      
-        <div class="top">
-          <ul>
-            <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
-            <li><span class="converse">Samsung</span></li>
-            <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-      </a></li>
-          </ul>
-        </div>
-        
-        <div class="middle">
-          <img src="./Img_notebooks/Samsung.webp" alt="Samsung A54" />
-        </div>
-        
-        <div class="bottom">
-          <div class="heading">Celular Samsung</div>
-          <div class="info">A54</div>
-          <div class="style">256 GB 4 RAM </div>
-          <div class="price">$1.200.000</div>
-        </div>
-        
-      </div>
-      <div class="block">
-      
-        <div class="top">
-          <ul>
-            <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
-            <li><span class="converse">Huawei</span></li>
-            <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-      </a></li>
-          </ul>
-        </div>
-        
-        <div class="middle">
-          <img src="./Img_notebooks/Huawei.webp" alt="Huawei P40" />
-        </div>
-        
-        <div class="bottom">
-          <div class="heading">Celular Huawei</div>
-          <div class="info">P40</div>
-          <div class="style">128 GB 4 RAM</div>
-          <div class="price">$800.000</div>
-        </div>
-        
-      </div>
-      <div class="block">
-      
-        <div class="top">
-          <ul>
-            <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
-            <li><span class="converse">Iphone</span></li>
-            <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-      </a></li>
-          </ul>
-        </div>
-        
-        <div class="middle">
-          <img src="./Img_notebooks/Iphone.webp" alt="Iphone 14" />
-        </div>
-        
-        <div class="bottom">
-          <div class="heading">Celular Iphone</div>
-          <div class="info">14</div>
-          <div class="style">128 GB 4 RAM</div>
-          <div class="price">$2.400.000 <span class="old-price">$2.500.000</span></div>
-        </div>
-        
+      <div class="top">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+          </li>
+          <li><span class="converse">Motorola</span></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
       </div>
 
+      <div class="middle">
+        <img src="./Img_notebooks/Samsung.webp" alt="Samsung 50 Pro" />
+      </div>
 
-</body>
+      <div class="bottom">
+        <div class="heading">Celular Motorola</div>
+        <div class="info">50 Pro</div>
+        <div class="style">518 GB 6 RAM</div>
+        <div class="price">$1.200.000</div>
+        <button onclick="mostrarDetalles('motorola')">Ver detalles</button>
+      </div>
+    </div>
+    <div class="block">
+      <div class="top">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+          </li>
+          <li><span class="converse">Samsung</span></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="middle">
+        <img src="./Img_notebooks/Samsung.webp" alt="Samsung A54" />
+      </div>
+
+      <div class="bottom">
+        <div class="heading">Celular Samsung</div>
+        <div class="info">A54</div>
+        <div class="style">256 GB 4 RAM</div>
+        <div class="price">$1.200.000</div>
+        <button onclick="mostrarDetalles('samsung')">Ver detalles</button>
+      </div>
+    </div>
+    <div class="block">
+      <div class="top">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+          </li>
+          <li><span class="converse">Huawei</span></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="middle">
+        <img src="./Img_notebooks/Huawei.webp" alt="Huawei P40" />
+      </div>
+
+      <div class="bottom">
+        <div class="heading">Celular Huawei</div>
+        <div class="info">P40</div>
+        <div class="style">128 GB 4 RAM</div>
+        <div class="price">$800.000</div>
+        <button onclick="mostrarDetalles('huawei')">Ver detalles</button>
+      </div>
+    </div>
+    <div class="block">
+      <div class="top">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+          </li>
+          <li><span class="converse">Iphone</span></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="middle">
+        <img src="./Img_notebooks/Iphone.webp" alt="Iphone 14" />
+      </div>
+
+      <div class="bottom">
+        <div class="heading">Celular Iphone</div>
+        <div class="info">14</div>
+        <div class="style">128 GB 4 RAM</div>
+        <div class="price">
+          $2.400.000 <span class="old-price">$2.500.000</span>
+        </div>
+        <button onclick="mostrarDetalles('iphone')">Ver detalles</button>
+      </div>
+    </div>
+   <!-- Modal para detalles del producto -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="cerrarModal()">&times;</span>
+      <img id="modalImage" src="" alt="Imagen del Producto" ; max-height: 300px; object-fit: cover;">
+      <h3 id="modalTitle">Título del Producto</h3>
+      <p id="modalDescription">Descripción del producto aquí.</p>
+      <p id="modalPrice">Precio: </p>
+      <p id="modalOldPrice" class="old-price"></p>
+      <div class="product-details">
+          <h4>Especificaciones:</h4>
+          <ul id="modalSpecs">
+              <!-- Las especificaciones técnicas aparecerán aquí -->
+          </ul>
+      </div>
+  </div>
+</div>
+
+
+    <script src="./La Tiendita.js"></script>
+  </body>
 </html>
